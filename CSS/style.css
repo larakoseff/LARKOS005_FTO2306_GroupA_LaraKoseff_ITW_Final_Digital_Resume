@@ -23,14 +23,23 @@ padding: 40px;
     font-weight: 300;
     background-color: #FDE9FF;   
     width: 95vw;
-    height: 5vh;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    border-radius: 25px;
+    height: 8vh;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    border-radius: 30px;
     justify-content: center;
 }
 
-
+.center {
+    height: 8vh;
+    line-height: 8vh;
+  }
+  
+  p {    
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+  }
 
 .flex-container {
 display: flex;
