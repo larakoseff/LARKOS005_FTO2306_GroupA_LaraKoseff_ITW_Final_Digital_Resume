@@ -71,8 +71,22 @@ a:visited {
     text-decoration: none;
   }
 
-  #menu:hover {
-    background-color: #FCF202; 
+#menu:hover {
+animation-name: divcolor;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+animation-direction: alternate;
+  }
+
+  /* menu animation code */
+
+@keyframes divcolor {
+  0% {background-color: #FDE9FF;}
+  25% {background-color: #7600FF;}
+  50% {background-color: #49FCE3;} 
+  75% {background-color: #FCF202;} 
+  100% {background-color: #FF0000;}
   }
 
 
