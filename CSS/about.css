@@ -103,6 +103,14 @@ height: 6vh;
 line-height: 6vh;
 }
 
+.about-icon {
+width: auto;
+height: 5vh;
+line-height: 5vh;
+vertical-align: middle;
+display: inline-block;
+}
+
 .main-item-2 {
 font-family: "Chakra Petch", sans-serif;
 font-weight: 300;
@@ -139,7 +147,7 @@ font-size: small;
 background-color: #FDE9FF;
 padding: 5px;
 text-align: center;
-width: 18vw;
+width: 24vw;
 margin-right: 1.5rem;
 margin-top: 0.5rem;
 border-radius: 25px; 
@@ -159,6 +167,13 @@ p {
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
   animation-direction: alternate;
+}
+
+.menu-icons {
+  width: auto;
+  height: 4vh;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 /* menu animation code */
