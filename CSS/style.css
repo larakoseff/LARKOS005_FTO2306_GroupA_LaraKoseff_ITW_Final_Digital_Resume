@@ -69,6 +69,26 @@ header {
   animation-direction: alternate;
 }
 
+/* menu animation code */
+
+@keyframes divcolor {
+  0% {
+    background-color: #fde9ff;
+  }
+  25% {
+    background-color: #7600ff;
+  }
+  50% {
+    background-color: #49fce3;
+  }
+  75% {
+    background-color: #fcf202;
+  }
+  100% {
+    background-color: #ff0000;
+  }
+}
+
 /* alternative floating menu
 
 .menu {
@@ -313,22 +333,4 @@ a:active {
   }
 }
 
-/* menu animation code */
 
-@keyframes divcolor {
-  0% {
-    background-color: #fde9ff;
-  }
-  25% {
-    background-color: #7600ff;
-  }
-  50% {
-    background-color: #49fce3;
-  }
-  75% {
-    background-color: #fcf202;
-  }
-  100% {
-    background-color: #ff0000;
-  }
-}
