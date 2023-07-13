@@ -68,6 +68,12 @@ header {
   animation-timing-function: ease-in;
   animation-direction: alternate;
 }
+.menu-icons  {
+  width: auto;
+  height: 4vh;
+  vertical-align: middle;
+  display: inline-block;
+}
 
 /* menu animation code */
 
