@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(../images/background-image-experience.jpg);
+    background-image: url(../images/background-image-education.JPG);
     background-size: 100%;
     margin: 0;
     text-decoration: none;
@@ -103,7 +103,7 @@ main {
 
 .main-item-1 {
 font-family: 'Inter', sans-serif;
-font-weight: 300;
+font-weight: 400;
 letter-spacing: 0.1em ;
 background-color: #49FCE3;
 color: rgb(0, 0, 0);
