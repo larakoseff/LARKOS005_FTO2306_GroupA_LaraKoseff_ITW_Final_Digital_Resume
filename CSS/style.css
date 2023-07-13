@@ -11,11 +11,46 @@ body {
 
 header {
 background-color: white;
-max-width: 100%;
+width: 100%;
 margin: 0;
-padding: 40px;
+padding-top: 30px;
+padding-bottom: 30px;
 position: relative;
 }
+
+.name-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-shrink: 1;
+  width: 100%;
+}
+
+.letter {
+height: 5rem;  
+transform: rotate(0deg);
+transition: transform 0.3s ease-in-out;
+width: 50px;
+}
+
+.letter:hover {
+  transform: rotate(180deg);
+  animation-name: revertAnimation;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes revertAnimation {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
 
 /* straight across menu */
 .menu {
@@ -25,11 +60,10 @@ position: relative;
     letter-spacing: 0.1em;
     background-color: #FDE9FF;   
     width: 100vw;
-    height: 8vh;
+    height: 6vh;
  
     justify-content: center;
-    height: 8vh;
-    line-height: 8vh;
+    line-height: 6vh;
 }
 
 
