@@ -68,7 +68,7 @@ width: 50px;
 
 
 
-/* floating menu
+/* alternative floating menu
 
 .menu {
 font-family: 'Inter', sans-serif;
@@ -108,11 +108,14 @@ a {
   height: 6vh;
   margin-left: 1.5rem;
   border-radius: 20px;
-  padding: 4%;
+  padding-bottom: 5%;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 3%;
   position: fixed;
-  bottom: 50px;
+  bottom: 40px;
   left: 1rem;
-
+  align-items: center;
 }
 
 .statement-flex {
@@ -192,7 +195,7 @@ animation-direction: alternate;
     /* --- circle 2 position--- */
     
     position: fixed;
-    bottom: 60px;
+    bottom: 50px;
     right: 30px;
 
      /*--- circle animation---*/
@@ -220,7 +223,7 @@ animation-direction: alternate;
     /* --- circle 3 position--- */
     
     position: fixed;
-    bottom: 90px;
+    bottom: 80px;
     right: 60px;
 
     /*--- circle animation---*/
@@ -249,7 +252,7 @@ animation-direction: alternate;
     /* --- circle 1 position--- */
     
     position: fixed;
-    bottom: 60px;
+    bottom: 50px;
     right: 80px;
     z-index: 1;
     }
