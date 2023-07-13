@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(../images/background-image-about.jpg);
+    background-image: url(../images/background-image-experience.jpg);
     background-size: 100%;
     margin: 0;
     text-decoration: none;
@@ -47,10 +47,27 @@ height: 5rem;
   }
 }
 
+h2 {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-size: 150%;
+}
+
+h3 {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-size: 100%;
+}
+
+ul {
+    padding: 20px;
+    margin: 0px;
+   }
+
 /* ----links-----*/
 
 a {
-    color: #000000;
+    color: inherit;
     text-decoration: none;  
 }
 
@@ -88,10 +105,10 @@ main {
 
 .main-item-1 {
 font-family: 'Inter', sans-serif;
-font-size: medium;
 font-weight: 300;
-letter-spacing: 0.1em;
-background-color: #FCF202;
+letter-spacing: 0.1em ;
+background-color: #7600FF;
+color: aliceblue;
 padding-left: 30px;
 text-align: left;
 width: 53vw;
@@ -113,8 +130,9 @@ display: inline-block;
 .main-item-2 {
 font-family: "Chakra Petch", sans-serif;
 font-weight: 300;
-letter-spacing: 0.1em;
-background-color: #FCF202;
+letter-spacing: 0.1em ;
+background-color: #7600FF;
+color: aliceblue;
 padding-top: 20px;
 padding-left: 30px;
 padding-right: 30px;
@@ -139,7 +157,7 @@ height: auto;
 .page-items {
 font-family: 'Inter', sans-serif;
 font-weight: 300;
-letter-spacing: 0.1em;
+letter-spacing: 0.1em ;
 background-color: #FDE9FF;
 padding: 5px;
 text-align: center;
