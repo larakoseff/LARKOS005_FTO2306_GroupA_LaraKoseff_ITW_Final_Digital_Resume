@@ -86,6 +86,11 @@ align-items: center;
 
 }
 
+.statement-text {
+
+  padding-right: 2%;
+}
+
 .learn-more {
   border: solid white 1px;
   border-radius: 30px;
