@@ -1,1 +1,7 @@
 # LARKOS005_FTO2306_GroupA_LaraKoseff_ITW_Final_Digital_Resume
+
+Link to Figma Wire-frames:
+
+LARKOS005_FTO2306_GroupA_LaraKoseff_ITW_Final_Digital_Resume
+
+https://www.figma.com/file/RNIgfZQUBXdIgQGKAbYHsK/LARKOS005_FTO2306_GroupA_LaraKoseff_ITW_Final_Digital_Resume?type=design&node-id=1378%3A177&mode=design&t=t2iCrEcHGFNaXGgF-1
