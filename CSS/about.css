@@ -460,7 +460,7 @@ p {
      /* circle 2 position */
      position: fixed;
      bottom: 40px;
-     right: 30px;
+     right: 20px;
    
      /* circle 2 animation */
      animation-name: circle-translate-2;
@@ -486,7 +486,7 @@ p {
      /* circle 3 position */
      position: fixed;
      bottom: 70px;
-     right: 60px;
+     right: 50px;
    
      /*circle animation 3 */
      animation-name: circle-translate-1;
@@ -513,7 +513,7 @@ p {
      /* circle 1 position */
      position: fixed;
      bottom: 40px;
-     right: 60px;
+     right: 50px;
      z-index: 1;
    }
    
@@ -538,23 +538,7 @@ p {
      
    }
    
-   @keyframes circle-color {
-     0% {
-       background-color: #fde9ff;
-     }
-     25% {
-       background-color: #7600ff;
-     }
-     50% {
-       background-color: #49fce3;
-     }
-     75% {
-       background-color: #fcf202;
-     }
-     100% {
-       background-color: #ff0000;
-     }
-   }
+
    
    @keyframes circle-rotate {
      from {
