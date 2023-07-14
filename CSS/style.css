@@ -485,7 +485,7 @@ display: none;
 
   /* circle 2 position */
   position: fixed;
-  bottom: 50px;
+  bottom: 40px;
   right: 20px;
 
   /* circle 2 animation */
@@ -511,7 +511,7 @@ display: none;
 
   /* circle 3 position */
   position: fixed;
-  bottom: 80px;
+  bottom: 70px;
   right: 50px;
 
   /*circle animation 3 */
@@ -538,7 +538,7 @@ display: none;
 
   /* circle 1 position */
   position: fixed;
-  bottom: 50px;
+  bottom: 40px;
   right: 50px;
   z-index: 1;
 }
