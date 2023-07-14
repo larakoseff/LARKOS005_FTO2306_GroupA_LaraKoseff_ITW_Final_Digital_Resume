@@ -62,9 +62,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #000000;
+  color: coral;
   text-decoration: none;
-  font-weight: 400;
 }
 
 /* selected link */

@@ -77,9 +77,8 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: #000000;
   text-decoration: none;
-  font-weight: 400;
+  color: coral;
 }
 
 /* selected link */
