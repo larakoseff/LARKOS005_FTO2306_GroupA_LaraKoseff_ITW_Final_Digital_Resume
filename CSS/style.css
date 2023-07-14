@@ -613,7 +613,11 @@ display: none;
 
 /* -------Large Mobile/Small Tablet View---------*/
 
-@media all and (min-width: 601px) and (max-width: 768px) {
+@media all and (min-width: 601px) and (max-width: 820px) {
+
+  .letter {
+    height: 3rem;
+  }
 
  .dropdown {display: none;} 
 
@@ -621,11 +625,59 @@ display: none;
   display: none;
 }
 
+.statement {
+  background-color: #7600ff;
+  color: azure;
+  font-family: "Chakra Petch", sans-serif;
+  width: 60vw;
+  border-radius: 30px;
+  height: 6vh;
+  margin-left: 1.5rem;
+  border-radius: 20px;
+  padding-bottom: 5.5%;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 3%;
+  position: fixed;
+  bottom: 40px;
+  left: 1rem;
+  align-items: center;
+}
+
+.learn-more {
+  border: solid white 1px;
+  border-radius: 30px;
+  width: 50vw;
+  height: 5vh;
+  line-height: 5vh;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: small;
+  letter-spacing: 0.1em;
+  padding-left: 5%;
+  padding-right: 2%;
+}
+
+.learn-more:hover {
+  animation-name: divcolor;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  color: #000000;
+}
+
+.arrow {
+  width: 16px;
+  padding-left: 1%;
+}
+
 }
 
 /* -------Large Tablet View---------*/
 
-@media all and (min-width: 769px) and (max-width: 1100px) {
+@media all and (min-width: 821px) and (max-width: 1100px) {
  .dropdown {
   display: none;
  } 
