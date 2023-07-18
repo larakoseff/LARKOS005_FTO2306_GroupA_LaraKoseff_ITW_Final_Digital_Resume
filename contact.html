@@ -53,22 +53,27 @@
         </div>
         <div class="main-item-2">
             <form action="https://formsubmit.co/larakoseff@gmail.com" method="post">
-                <div><label for="name">Name:<span aria-label="required"></span></label>
-              <input type="text" name="name" id="name" required></div>
-               <div><label for="email">Email:<span aria-label="required"></span></label>
-               <input type="email" name="email" id="email" required></div>
-                <div><label for="subject">Subject:<span aria-label="required"></span></label>
-             <select name="subject" id="subject" required></div>
-                <option value="work">I'm interested in working together</option>
-                <option value="question">I have a question/comment</option>
-                <option value="hi">Just wanted to say hi</option>
-                <option value="other">Other</option>
-              </select>
-            <div><label for="message" class="texttop">Message:</label></div>
-            <div><textarea name="about" cols="50" rows="7"></textarea></div>
-                <br>
-            <input type="submit" name="submit" value="Submit" class="centerbutton">
-            </form>
+                <label class="name" for="name-field">
+                  Name:
+                  <input id="name-field" />
+                </label>
+                <label class="email" for="email-field">
+                  Email:
+                  <input id="email-field" type="email" />
+                </label>
+                <div class="subject"><label for="subject">Subject:<span aria-label="required"></span></label>
+                <select name="subject" id="subject" required></div>
+                    <option value="work">I'm interested in working together</option>
+                    <option value="question">I have a question/comment</option>
+                    <option value="hi">Just wanted to say hi</option>
+                    <option value="other">Other</option>
+                  </select>
+                <div class="form-item"><label for="message" class="texttop">Message:</label></div>
+                <div><textarea name="about" cols="50" rows="7"></textarea></div>
+                <button class="form-btn">
+                  Submit
+                </button>
+              </form>
             <br> 
             <div class="social-flex">
                 <div><a href="https://www.instagram.com/lonkavite/?hl=en" target="_blank"><img src="./images/instagram-icon-white.svg" alt="instagram" class="social-icons"></a></div>

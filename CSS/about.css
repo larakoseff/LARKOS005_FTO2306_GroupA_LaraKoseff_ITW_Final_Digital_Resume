@@ -100,14 +100,14 @@ width: auto;
 margin-right: 1.5rem;
 margin-top: 0.5rem;
 border-radius: 25px; 
-height: 4vh;
-line-height: 4vh;
+height: 5vh;
+line-height: 5vh;
 }
 
 .about-icon {
 width: auto;
 height: 4vh;
-line-height: 4vh;
+line-height: 5vh;
 vertical-align: middle;
 display: inline-block;
 }
@@ -134,7 +134,7 @@ height: auto;
   display: flex;
   flex-direction: column;
   align-items: end;
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 .page-items {
