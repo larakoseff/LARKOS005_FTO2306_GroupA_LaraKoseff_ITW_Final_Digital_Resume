@@ -55,13 +55,13 @@
             <form action="https://formsubmit.co/larakoseff@gmail.com" method="post">
                 <label class="name" for="name-field">
                   Name:
-                  <input id="name-field" />
+                  <span aria-label="required"></span><input id="name-field" required />
                 </label>
                 <label class="email" for="email-field">
                   Email:
-                  <input id="email-field" type="email" />
+                <input id="email-field" type="email" required />
                 </label>
-                <div class="subject"><label for="subject">Subject:<span aria-label="required"></span></label>
+                <div class="subject"><label for="subject">Subject:</label>
                 <select name="subject" id="subject" required></div>
                     <option value="work">I'm interested in working together</option>
                     <option value="question">I have a question/comment</option>
