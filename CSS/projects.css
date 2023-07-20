@@ -618,7 +618,7 @@ p {
     background-color: #fde9ff;
     padding: 2px;
     text-align: center;
-    width: 27vw;
+    width: 35vw;
     margin-right: 1rem;
     margin-top: 0.5rem;
     border-radius: 25px;
@@ -652,6 +652,29 @@ p {
   .no-animate-head {
     display: none;
   }
+}
+
+.page-items {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: medium;
+  letter-spacing: 0.1em;
+  background-color: #fde9ff;
+  padding: 2px;
+  text-align: center;
+  width: 28vw;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 25px;
+  height: 4vh;
+  line-height: 4vh;
+}
+
+.menu-icons {
+  width: auto;
+  height: 2.5vh;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 /* -------Desktop View---------*/
