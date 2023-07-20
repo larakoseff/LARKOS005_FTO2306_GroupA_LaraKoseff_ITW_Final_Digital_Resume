@@ -114,14 +114,14 @@ main {
   margin-right: 1.5rem;
   margin-top: 0.5rem;
   border-radius: 25px;
-  height: 5vh;
-  line-height: 5vh;
+  height: 6vh;
+  line-height: 6vh;
 }
 
 .about-icon {
   width: auto;
   height: 4vh;
-  line-height: 5vh;
+  line-height: 6vh;
   vertical-align: middle;
   display: inline-block;
 }
@@ -905,8 +905,8 @@ p {
     margin-right: 1.5rem;
     margin-top: 0.5rem;
     border-radius: 25px;
-    height: 4vh;
-    line-height: 4vh;
+    height: 5vh;
+    line-height: 5vh;
   }
 
 }
